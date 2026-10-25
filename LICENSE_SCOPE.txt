@@ -1,0 +1,65 @@
+Rayls Enygma Week 4 — licensing scope
+
+Copyright 2026 Glimor (GitHub account: Glimorr).
+SPDX-License-Identifier: Apache-2.0 — covered original works only.
+
+The copyright owner has approved Apache License 2.0 for the original
+verification code, original research documentation and applicable original
+website materials identified below. The complete, unmodified license text
+is supplied in LICENSE.
+
+Covered original works
+
+1. Original verification, analysis, rendering and packaging code:
+   verify.mjs, audit.mjs, presentation.mjs, document-views.mjs,
+   public-package.mjs, host-versions.mjs, tests/*.test.mjs and original
+   repository validation/configuration code under tools/, ci/ and .github/.
+
+2. Original prose and explanatory presentation in the nine preserved
+   research documents:
+   README.md; FINAL_REPORT.md; REPRODUCIBILITY.md; EVIDENCE_INDEX.md;
+   SOURCE_PROVENANCE.md; CURRENT_VS_HISTORICAL_RUNTIME_MATRIX.md;
+   TRANSACTION_AUDIT_GUIDE.md; PACKAGE_CONTENTS.md; ATTRIBUTION.md.
+
+3. Applicable original HTML/CSS layouts, rendered original documentation,
+   explanatory figures and website presentation generated from that code.
+   This grant covers the original authored expression, not an ownership
+   claim over embedded research records or third-party material.
+
+The same scope applies to corresponding copies in site/ and reproduce/
+directories and to the standalone package produced by the generator.
+
+Excluded from blanket relicensing
+
+- Preserved research evidence, including every file under evidence/ and
+  corresponding site/reproduce/evidence/ copies, saved historical audits,
+  snapshots, event exports, frozen models/predictions and their commitments.
+- Research data and data records, including ground-truth.csv, captured
+  runtime metadata, evidence/release manifests and checksums, and derived
+  metrics, transaction tables and result datasets. Their inclusion or
+  rendering does not blanket-relicense the underlying records.
+- Third-party code, documentation, quotations, logos, trademarks and other
+  third-party works, whether copied, referenced, linked or embedded.
+  Existing rights, licenses, attribution and notices remain applicable.
+
+Nothing in this scope notice grants rights the copyright owner does not
+hold or overrides a third party's terms. Existing evidence and third-party
+attribution is retained. No ownership of protocol implementations, chain
+records, trademarks or underlying factual observations is asserted here.
+
+Preserved documentation and attribution
+
+The nine original Markdown documents are retained byte-for-byte, including
+their original source SHA-256 references. Earlier statements in those
+preserved documents that no license had yet been specified describe the
+previous licensing status. This notice records the owner's subsequent
+approval and supersedes only those earlier licensing-status statements.
+
+The AI-assistance disclosure in ATTRIBUTION.md remains unchanged and
+applies in full. This licensing decision does not turn creator-produced
+records into independent certification or change any scientific result,
+limitation, receipt/reference distinction or disclosed uncertainty.
+
+No NOTICE file from an upstream work is replaced by this scope notice.
+The upstream Apache-2.0 references remain attribution to those projects;
+this original-work grant is the separate approval described above.

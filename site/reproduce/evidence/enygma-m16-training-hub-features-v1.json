@@ -1,0 +1,107 @@
+{
+  "amountLabelsIncluded": false,
+  "attribution": "TEMPORAL_ONLY",
+  "destinationChainQueriedForFeatures": false,
+  "featureDefinition": "Maximum ciphertextBytes among destinationChainId 12346 events in each verified temporal trial window",
+  "scheduleCommitmentSHA256": "d283832c480944ea572f9c892b17d6cdf8f397634635a237c8efac69fcf23655",
+  "schemaVersion": 1,
+  "sourceChainQueriedForFeatures": false,
+  "trainingTrials": [
+    {
+      "bankBCiphertextBytesSorted": [
+        429,
+        1158
+      ],
+      "bankBMaxCiphertextBytes": 1158,
+      "fullHubSnapshotSHA256": "a69f50ac6cbd74a63ca2c6441fb47780681c610d82357dd437aedbc6c398ef15",
+      "hubBatchCount": 2,
+      "hubEventCount": 8,
+      "phase": "training",
+      "trialId": "W4_M15_T01"
+    },
+    {
+      "bankBCiphertextBytesSorted": [
+        429,
+        1157
+      ],
+      "bankBMaxCiphertextBytes": 1157,
+      "fullHubSnapshotSHA256": "db9cb6d18dee93114a01a0e2da8743e9df2425320fc844565f8712b499dba9eb",
+      "hubBatchCount": 2,
+      "hubEventCount": 8,
+      "phase": "training",
+      "trialId": "W4_M15_T02"
+    },
+    {
+      "bankBCiphertextBytesSorted": [
+        429,
+        1162
+      ],
+      "bankBMaxCiphertextBytes": 1162,
+      "fullHubSnapshotSHA256": "ddf0948dfcdfffd9d5e9e6f19f9290af59bf56617ec050a58eeee3e0fccc5d2e",
+      "hubBatchCount": 2,
+      "hubEventCount": 8,
+      "phase": "training",
+      "trialId": "W4_M15_T03"
+    },
+    {
+      "bankBCiphertextBytesSorted": [
+        428,
+        1153
+      ],
+      "bankBMaxCiphertextBytes": 1153,
+      "fullHubSnapshotSHA256": "e97e0395ef4fda77c277cce30e19b135f1ac0dcc383135bbad6af557904e4948",
+      "hubBatchCount": 2,
+      "hubEventCount": 8,
+      "phase": "training",
+      "trialId": "W4_M15_T04"
+    },
+    {
+      "bankBCiphertextBytesSorted": [
+        428,
+        1159
+      ],
+      "bankBMaxCiphertextBytes": 1159,
+      "fullHubSnapshotSHA256": "797b84e4abf263ac4dac347cd579760ffab97ff7f4b27d86c1ad170be6f30f95",
+      "hubBatchCount": 2,
+      "hubEventCount": 8,
+      "phase": "training",
+      "trialId": "W4_M15_T05"
+    },
+    {
+      "bankBCiphertextBytesSorted": [
+        428,
+        1159
+      ],
+      "bankBMaxCiphertextBytes": 1159,
+      "fullHubSnapshotSHA256": "a68a2f2429ba484e53234bde6d3063cd4bb9943402fba79d5c8236d854566612",
+      "hubBatchCount": 2,
+      "hubEventCount": 8,
+      "phase": "training",
+      "trialId": "W4_M15_T06"
+    },
+    {
+      "bankBCiphertextBytesSorted": [
+        428,
+        1161
+      ],
+      "bankBMaxCiphertextBytes": 1161,
+      "fullHubSnapshotSHA256": "9e2bbcce09956943cdab1852ee31f468233fafed9003be83a90f19380658df98",
+      "hubBatchCount": 2,
+      "hubEventCount": 8,
+      "phase": "training",
+      "trialId": "W4_M15_T07"
+    },
+    {
+      "bankBCiphertextBytesSorted": [
+        428,
+        1156
+      ],
+      "bankBMaxCiphertextBytes": 1156,
+      "fullHubSnapshotSHA256": "bb2ca2c5dd8d0a3ec32d69a4ba4b7d611d1ab1602638e7b2a7eb518b17a02187",
+      "hubBatchCount": 2,
+      "hubEventCount": 8,
+      "phase": "training",
+      "trialId": "W4_M15_T08"
+    }
+  ]
+}

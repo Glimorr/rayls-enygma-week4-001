@@ -1,0 +1,71 @@
+{
+  "attribution": "TEMPORAL_ONLY",
+  "bankBCiphertextBytesSorted": [
+    429,
+    1154
+  ],
+  "bankBMaxCiphertextBytes": 1154,
+  "blindHubSnapshotSHA256": "ee93b646c71cb596d0ff3e327a571fa0b7e0e88c7a90bc0fa974c2e59d8aaeb5",
+  "direction": "high_means_0.25",
+  "groundTruthRevealed": false,
+  "heldoutGroundTruthUsed": false,
+  "hubBaselineBlock": 39221,
+  "hubBatchCount": 2,
+  "hubEventCount": 8,
+  "hubObserverDestinationChainQueried": false,
+  "hubObserverSourceChainQueried": false,
+  "hubScannedThroughBlock": 39656,
+  "modelSHA256": "189d9852fb53c7b1320d0e7a6258b9357d4918a4f088b4307fbbc5dd465abe26",
+  "observedHubEventKeys": [
+    {
+      "ciphertextHash": "0x764494805839baaf1a982ae29fead27a093d0e120ba2607b6c383e823a625243",
+      "hubLogIndex": 2,
+      "hubTxHash": "0xbc5d2faaf3902ed3e9748ed8150b8f823aa1615e502735c38d44dd4b2072bca6"
+    },
+    {
+      "ciphertextHash": "0x2219ea3d8122fea50d892b0b1db979721966b4e6d32c925a3330596ccd25a48a",
+      "hubLogIndex": 3,
+      "hubTxHash": "0xbc5d2faaf3902ed3e9748ed8150b8f823aa1615e502735c38d44dd4b2072bca6"
+    },
+    {
+      "ciphertextHash": "0x9167db76bcd974a44a266eb61893daedc7aeba77357f09728e6c7d7956464c2a",
+      "hubLogIndex": 4,
+      "hubTxHash": "0xbc5d2faaf3902ed3e9748ed8150b8f823aa1615e502735c38d44dd4b2072bca6"
+    },
+    {
+      "ciphertextHash": "0x42de4dadf634937fbd7b0d3dd03aa052a8099462235c3f44e7f6378f165a74d9",
+      "hubLogIndex": 5,
+      "hubTxHash": "0xbc5d2faaf3902ed3e9748ed8150b8f823aa1615e502735c38d44dd4b2072bca6"
+    },
+    {
+      "ciphertextHash": "0x9670bddb972e7b8f80a49236d37dc4ec73fe9d3cf900cb97c123ee72034564cf",
+      "hubLogIndex": 2,
+      "hubTxHash": "0x3bb67054eb73b352c0512873456087134f29fb5708706879b6741e85bfc8d42c"
+    },
+    {
+      "ciphertextHash": "0x92fa735ad6ca5a7c96abbb14ad308ee19954643330c01ef2e3b634218cef1768",
+      "hubLogIndex": 3,
+      "hubTxHash": "0x3bb67054eb73b352c0512873456087134f29fb5708706879b6741e85bfc8d42c"
+    },
+    {
+      "ciphertextHash": "0x35026506d9d7bcccbe3aecaa6e9178a559b727efbb46254a73516b3732eac902",
+      "hubLogIndex": 4,
+      "hubTxHash": "0x3bb67054eb73b352c0512873456087134f29fb5708706879b6741e85bfc8d42c"
+    },
+    {
+      "ciphertextHash": "0x086c6ba9d2de9445528a4c39a70f58b1e6951f4d96859f5a7ff0185c377e442c",
+      "hubLogIndex": 5,
+      "hubTxHash": "0x3bb67054eb73b352c0512873456087134f29fb5708706879b6741e85bfc8d42c"
+    }
+  ],
+  "phase": "heldout",
+  "predictedAmountClass": "1.00",
+  "predictionMayBeRefitted": false,
+  "previousHubSnapshotSHA256": "0e8dad40abc23592ca297beb685e146c6148df92b44fb6c40f18b0c8b9c208e2",
+  "privateScheduleOpened": false,
+  "schemaVersion": 1,
+  "sourceEvidenceUsedOnlyToVerifyObservationWindow": true,
+  "status": "PREDICTION_LOCKED_PENDING_SETTLEMENT_AUDIT",
+  "thresholdBytes": 1157,
+  "trialId": "W4_M15_T14"
+}

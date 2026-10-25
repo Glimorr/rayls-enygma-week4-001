@@ -1,0 +1,36 @@
+name: Verify research release
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout reviewed source
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Set up Node
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+      - name: Run current offline suite
+        run: node --test tests/research.test.mjs tests/audit.test.mjs tests/publication.test.mjs
+      - name: Verify the staged release
+        run: node tools/check-staging.mjs
+      - name: Rebuild in a fresh directory
+        id: build
+        shell: bash
+        run: |
+          set -euo pipefail
+          build_parent=$(mktemp -d "$RUNNER_TEMP/rayls-build.XXXXXX")
+          site_path="$build_parent/site"
+          node verify.mjs --out "$site_path"
+          node tools/check-staging.mjs --built "$site_path"
+          echo "site_path=$site_path" >> "$GITHUB_OUTPUT"
+      - name: Upload verified static site
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: verified-research-site
+          path: ${{ steps.build.outputs.site_path }}
+          include-hidden-files: true

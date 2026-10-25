@@ -1,0 +1,14 @@
+{
+  "name": "rayls-week4-offline-research",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/research.test.mjs tests/audit.test.mjs tests/publication.test.mjs",
+    "verify": "node verify.mjs",
+    "build": "node verify.mjs --out ../results/site-build-001"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "SEE LICENSE IN LICENSE_SCOPE.txt"
+}

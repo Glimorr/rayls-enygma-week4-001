@@ -1,0 +1,39 @@
+{
+  "ambiguousTrialPolicy": "ABSTAIN_AND_REPORT_UNRESOLVED",
+  "attribution": "TEMPORAL_ONLY",
+  "comparison": "ciphertextBytes >= thresholdBytes",
+  "direction": "high_means_0.25",
+  "evaluationNote": "Apply this exact rule separately to each verified held-out trial window; lock all held-out predictions before revealing true held-out amount labels.",
+  "featureDefinition": "Maximum ciphertextBytes among destinationChainId 12346 events in each verified temporal trial window",
+  "featureName": "bankBMaxCiphertextBytes",
+  "heldoutLabelsUsedForFitting": false,
+  "heldoutPredictionsMustBeFrozenBeforeReveal": true,
+  "heldoutTrials": 8,
+  "modelRefittingAfterFreezeAllowed": false,
+  "modelSelectionStage": "training_only",
+  "modelType": "single_feature_integer_threshold",
+  "modelWasSpecifiedInOriginalPreregistration": false,
+  "observerAccess": "Private Network Hub RPC only",
+  "publicPreregistrationSHA256": "9a0e3077f3a51adc5879c65a766deff00e70566fff11b05e8cbd5ee3471343aa",
+  "scheduleCommitmentSHA256": "d283832c480944ea572f9c892b17d6cdf8f397634635a237c8efac69fcf23655",
+  "schemaVersion": 1,
+  "status": "FROZEN_BEFORE_HELDOUT_EXECUTION",
+  "thresholdBytes": 1157,
+  "tieBreakRules": [
+    "maximize training correct count",
+    "prefer high_means_1.00",
+    "prefer cutoff nearest observed range midpoint",
+    "prefer lower cutoff"
+  ],
+  "trainingClassCounts": {
+    "0.25": 4,
+    "1.00": 4
+  },
+  "trainingCorrect": 6,
+  "trainingFeatureSHA256": "5e06a03d83088640533f484490afbed03cf8ec01e93ec32c0d19cd554f806925",
+  "trainingHubSnapshotSHA256": "bb2ca2c5dd8d0a3ec32d69a4ba4b7d611d1ab1602638e7b2a7eb518b17a02187",
+  "trainingLOOCorrect": 4,
+  "trainingPermutationExtremeCount": 54,
+  "trainingPermutationTotal": 70,
+  "trainingTrials": 8
+}

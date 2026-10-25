@@ -1,0 +1,18 @@
+========== SOURCE TRANSACTION AUDIT ==========
+Source receipt status: 1
+Source block: 29943
+Reference ID verified: true
+Burn event verified: true
+
+========== CURRENT CROSS-BANK STATE ==========
+Bank A reference status: 1 (SENT)
+Bank B reference status: 2 (RECEIVED)
+BANK_A_OPERATOR_BALANCE: 9999.0
+BANK_A_TOTAL_SUPPLY: 9999.0
+BANK_B_RECIPIENT_BALANCE: 1.0
+BANK_B_TOTAL_SUPPLY: 1.0
+
+========== SETTLEMENT CONCLUSION ==========
+RESULT: CROSS-BANK SETTLEMENT VERIFIED
+BANK B RECEIVED EXACTLY 1 ENYW4P26
+READ-ONLY AUDIT COMPLETE

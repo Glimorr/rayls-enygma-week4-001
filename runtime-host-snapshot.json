@@ -1,0 +1,13 @@
+{
+  "capturedUTC": "2026-10-25T17:22:52.883Z",
+  "scope": "CURRENT_COMMAND_HOST_ONLY_NOT_HISTORICAL",
+  "node": "v24.19.0",
+  "git": "git version 2.53.0.windows.3",
+  "npm": "NOT_QUERIED_BY_NODE (PowerShell capture: npm unavailable on PATH)",
+  "platform": "win32",
+  "architecture": "x64",
+  "docker": "NOT_QUERIED_BY_POLICY",
+  "compose": "NOT_QUERIED_BY_POLICY",
+  "historicalDeploymentVersions": "NOT_ESTABLISHED_BY_CURRENT_HOST",
+  "npmPowerShellObservation": "npm --version: command not found on PATH"
+}

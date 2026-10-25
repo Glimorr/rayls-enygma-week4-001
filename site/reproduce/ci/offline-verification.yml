@@ -1,0 +1,28 @@
+# Offline verification workflow template for the standalone research package.
+name: Offline research verification
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node --test tests/research.test.mjs tests/audit.test.mjs tests/publication.test.mjs
+      - name: Build into a fresh runner-temporary destination
+        id: build
+        shell: bash
+        run: |
+          set -euo pipefail
+          build_parent=$(mktemp -d "$RUNNER_TEMP/rayls-build.XXXXXX")
+          site_path="$build_parent/site"
+          node verify.mjs --out "$site_path"
+          echo "site_path=$site_path" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: research-site
+          path: ${{ steps.build.outputs.site_path }}
+# Read-only verification and build artifact upload; no deployment.

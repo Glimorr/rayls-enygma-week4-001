@@ -1,0 +1,67 @@
+========== BANK A SOURCE DISPATCH ==========
+Source transaction: 0xd41c3a5dd43e107d9ebb2412f4a2aa4daab80c9310b939d6ff835571c813631c
+Source block: 29943
+Source block timestamp: 2026-10-25T07:30:33.000Z
+Dispatch event contract: 0x4c5859f0F772848b2D91F1D83E2Fe57935348029
+Reference ID: 0x0c2b7a049a8f89003d63d8a674edfb2cfad18d7bf72eeed0a8426d83d2f1ba9c
+Amount: 1.0
+Destination chain: 12346
+Recipient: 0x70997970C51812dc3A010C7d01b50e0d17dc79C8
+Program-data recipients: 1
+RESULT: EXACT SOURCE DISPATCH VERIFIED
+
+========== HUB EVENT CANDIDATES ==========
+
+HUB CANDIDATE 1
+txHash: 0x6faaa68fd163940f5288df2d386b79615bade1c4acb9b02f4e2ba87724589100
+block: 15943
+timestamp: 2026-10-25T07:07:46.000Z
+logIndex: 2
+contract: 0xf5059a5D33d5853360D16C683c16e67980206f36
+bytes: 428
+ciphertextHash: 0xb2f9772edcd7e10b7d46adea48ec5d10156d2e159c1f062106225ef25e4951d6
+
+HUB CANDIDATE 2
+txHash: 0x9dd339a5cf9c5398148b21261871d25c99ab96813469adff566b558af33711f9
+block: 16479
+timestamp: 2026-10-25T07:16:42.000Z
+logIndex: 4
+contract: 0xf5059a5D33d5853360D16C683c16e67980206f36
+bytes: 429
+ciphertextHash: 0x7b459f9031ac2ed0312e3794db9d8e8b4096f1ae4c8753fedc1f0aa396ee5160
+
+HUB CANDIDATE 3
+txHash: 0x0eb4eca073812ebab27913efbbe904c44d96a0ac8ae4aa69b587ef23e3778ff0
+block: 17315
+timestamp: 2026-10-25T07:30:38.000Z
+logIndex: 3
+contract: 0xf5059a5D33d5853360D16C683c16e67980206f36
+bytes: 1162
+ciphertextHash: 0xbf5335329df9aadc6a49ca8337e7da382e08ab87d6aff1f492fd9ba532332f90
+
+HUB CANDIDATE 4
+txHash: 0x1b0a6879d9f4c962a4946080e67e4a8c90b7677c5f98d1e9d1d151e4b6c4ec2d
+block: 17318
+timestamp: 2026-10-25T07:30:41.000Z
+logIndex: 3
+contract: 0xf5059a5D33d5853360D16C683c16e67980206f36
+bytes: 428
+ciphertextHash: 0x0079db3acabbe0929d80ba25ff778ad9f6c30c47d586ecfa76393f3107e58ac7
+HUB_CANDIDATES_FOUND: 4
+
+========== BANK B DESTINATION MINT LOGS ==========
+MATCHING_ONE_TOKEN_MINTS: 1
+
+BANK B MINT 1
+transactionHash: 0x8728219dba68d40204eb661d0a35ef64fa62db86b6cd91792cbc06640df25321
+blockNumber: 30025
+timestamp: 2026-10-25T07:30:38.000Z
+logIndex: 0
+receiptStatus: 1
+
+========== FINAL SETTLEMENT CROSS-CHECK ==========
+Destination balance: 1.0
+Destination reference status: 2
+RESULT: SOURCE AND DESTINATION STATE VERIFIED
+NOTE: Hub event attribution remains provisional
+NO TRANSACTIONS SENT

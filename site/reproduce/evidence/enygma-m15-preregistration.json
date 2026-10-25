@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.0",
+  "experiment": "Rayls Enygma Week 4 amount-length study",
+  "createdUTC": "2026-10-25T09:47:25.087896+00:00",
+  "randomization": "Seeded Python Random.shuffle, separate balanced phases",
+  "scheduleSHA256": "d283832c480944ea572f9c892b17d6cdf8f397634635a237c8efac69fcf23655",
+  "baselineHubDatasetSHA256": "9477033ffce8bdd5e1401687f25d9da85ee0f135c13670c13da5d8759fce63eb",
+  "pilotDataExcludedFromBlindedTest": true,
+  "trialCount": 16,
+  "trainingTrials": 8,
+  "heldoutTrials": 8,
+  "amountClasses": [
+    "0.25",
+    "1.00"
+  ],
+  "amountCountsPerPhase": {
+    "0.25": 4,
+    "1.00": 4
+  },
+  "constantSourceChainId": 12345,
+  "constantDestinationChainId": 12346,
+  "constantRecipient": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+  "unitOfAnalysis": "One independently settled cross-bank trial",
+  "primaryQuestion": "Can Hub-only ciphertext lengths distinguish transfer amount classes?",
+  "observerAccess": "Private Network Hub RPC only",
+  "features": [
+    "per-destination ciphertext byte lengths",
+    "batch participant count",
+    "within-batch ciphertext length differences",
+    "public Hub event metadata"
+  ],
+  "attributionRule": "Correlate each source transfer and destination receipt with the Hub observation window. Treat ambiguous Hub batch attribution as unresolved; do not assign by size.",
+  "blindTestRule": "Freeze all heldout predictions before revealing heldout amount labels. Report unresolved and excluded trials.",
+  "analysisRule": "Report class-wise length distributions, overlap, prediction accuracy, and uncertainty. Analyze by trial, not as if four events were four independent payments.",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "publicTrialIds": [
+    {
+      "trialId": "W4_M15_T01",
+      "trialNumber": 1,
+      "phase": "training"
+    },
+    {
+      "trialId": "W4_M15_T02",
+      "trialNumber": 2,
+      "phase": "training"
+    },
+    {
+      "trialId": "W4_M15_T03",
+      "trialNumber": 3,
+      "phase": "training"
+    },
+    {
+      "trialId": "W4_M15_T04",
+      "trialNumber": 4,
+      "phase": "training"
+    },
+    {
+      "trialId": "W4_M15_T05",
+      "trialNumber": 5,
+      "phase": "training"
+    },
+    {
+      "trialId": "W4_M15_T06",
+      "trialNumber": 6,
+      "phase": "training"
+    },
+    {
+      "trialId": "W4_M15_T07",
+      "trialNumber": 7,
+      "phase": "training"
+    },
+    {
+      "trialId": "W4_M15_T08",
+      "trialNumber": 8,
+      "phase": "training"
+    },
+    {
+      "trialId": "W4_M15_T09",
+      "trialNumber": 9,
+      "phase": "heldout"
+    },
+    {
+      "trialId": "W4_M15_T10",
+      "trialNumber": 10,
+      "phase": "heldout"
+    },
+    {
+      "trialId": "W4_M15_T11",
+      "trialNumber": 11,
+      "phase": "heldout"
+    },
+    {
+      "trialId": "W4_M15_T12",
+      "trialNumber": 12,
+      "phase": "heldout"
+    },
+    {
+      "trialId": "W4_M15_T13",
+      "trialNumber": 13,
+      "phase": "heldout"
+    },
+    {
+      "trialId": "W4_M15_T14",
+      "trialNumber": 14,
+      "phase": "heldout"
+    },
+    {
+      "trialId": "W4_M15_T15",
+      "trialNumber": 15,
+      "phase": "heldout"
+    },
+    {
+      "trialId": "W4_M15_T16",
+      "trialNumber": 16,
+      "phase": "heldout"
+    }
+  ]
+}

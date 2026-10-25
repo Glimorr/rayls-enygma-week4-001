@@ -1,0 +1,13 @@
+# Prevent local operational/private material from being added.
+.env
+.env.*
+**/.env
+**/.env.*
+*.pem
+*.key
+*.mp4
+*.mov
+*.webm
+node_modules/
+results/
+EVALUATOR_FEEDBACK/

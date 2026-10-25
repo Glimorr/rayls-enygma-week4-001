@@ -1,0 +1,9 @@
+Trial,ActualAmountClass,PredictedAmountClass,MaxCiphertextBytes,Correct
+T09,0.25,1.00,1156,false
+T10,1.00,1.00,1153,true
+T11,1.00,0.25,1162,false
+T12,1.00,0.25,1158,false
+T13,0.25,0.25,1160,true
+T14,0.25,1.00,1154,false
+T15,0.25,0.25,1160,true
+T16,1.00,0.25,1165,false
